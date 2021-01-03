@@ -1,21 +1,21 @@
-//
-//  ContentView.swift
-//  Shared
-//
+
 //  Created by frimpongOpokuAgyemang on 31/12/2020.
 //
 
 import SwiftUI
 
-struct ContentView: View {
+struct InstagramProMaxIndex: View {
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+			NavigationView{
+				NavigationLink(destination:Text("here is thing")){
+					StartingPage()
+				}
+			}
     }
 }
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView()
+        InstagramProMaxIndex()
     }
 }
