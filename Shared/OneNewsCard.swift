@@ -10,6 +10,7 @@ import SwiftUI
 struct OneNewsCard: View {
 	var body: some View {
 		VStack{
+			// --- Header Area ---
 			HStack{
 				CircleImage(width:40, height: 40)
 					.frame(width:40, height:30)
@@ -19,7 +20,33 @@ struct OneNewsCard: View {
 				Spacer()
 				Image(systemName:"ellipsis")
 				
-			}.padding()
+			
+				
+			}.frame(height:10)
+			.padding()
+			// ---- Image Area -----
+			Image("1")
+				.resizable()
+				.scaledToFit()
+				.frame(maxWidth:.infinity)
+				.frame(height:270)
+			//---- Action Buttons Area ---
+			
+			HStack(spacing:15){
+				Image(systemName:"heart")
+					.font(.title2)
+				Image(systemName:"message")
+					.font(.title2)
+				Image(systemName:"paperplane")
+					.font(.title2)
+				Spacer()
+				Image(systemName:"bookmark")
+					.font(.title2)
+				
+				
+			}.padding([.leading,.trailing])
+			
+				
 		}
 	}
 }

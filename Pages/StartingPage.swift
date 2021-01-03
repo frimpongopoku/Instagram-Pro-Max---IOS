@@ -8,7 +8,16 @@ struct StartingPage: View {
 	var body: some View {
 		VStack{
 			HeaderBar()
-			StoriesHeader().padding()
+			ScrollView {
+				StoriesHeader().padding()
+				Divider()
+				ForEach(1...10, id: \.self){ _ in
+					OneNewsCard()
+					Divider().padding(5)
+					
+				}
+			}
+		
 		}
 	}
 }
