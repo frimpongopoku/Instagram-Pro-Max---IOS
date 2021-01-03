@@ -7,9 +7,9 @@ import SwiftUI
 struct InstagramProMaxIndex: View {
     var body: some View {
 			NavigationView{
-				NavigationLink(destination:Text("here is thing")){
+//				NavigationLink(destination:Text("here is thing")){
 					StartingPage()
-				}
+//				}
 			}
     }
 }

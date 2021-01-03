@@ -1,7 +1,4 @@
-//
-//  StartingPage.swift
-//  Instagram Pro Max (iOS)
-//
+
 //  Created by frimpongOpokuAgyemang on 03/01/2021.
 //
 
@@ -11,7 +8,7 @@ struct StartingPage: View {
 	var body: some View {
 		VStack{
 			HeaderBar()
-			StoriesHeader()
+			StoriesHeader().padding()
 		}
 	}
 }
@@ -20,7 +17,15 @@ struct StartingPage: View {
 
 struct StoriesHeader : View {
 	var body : some View {
-		Text("here it is")
+		ScrollView(.horizontal, showsIndicators: false){
+			HStack(spacing: 15){
+				StoryCircle(cardType: StoryCircle.add).padding(.leading,10)
+				ForEach(1...7, id :\.self){_ in
+					StoryCircle()
+				}
+			}.frame(height:70)
+		}
+		
 	}
 }
 
