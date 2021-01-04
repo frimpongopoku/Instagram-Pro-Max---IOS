@@ -11,7 +11,7 @@ import SwiftUI
 struct Instagram_Pro_MaxApp: App {
     var body: some Scene {
         WindowGroup {
-            InstagramProMaxIndex()
+            SplashScreen()
         }
     }
 }

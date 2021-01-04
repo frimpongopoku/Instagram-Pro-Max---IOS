@@ -5,10 +5,11 @@
 import SwiftUI
 
 struct InstagramProMaxIndex: View {
+	@State var showSplash   = true
 	var body: some View {
 		NavigationView{
 			VStack {
-				StartingPage()
+//				StartingPage()
 			}.navigationBarItems(leading: (HeaderBar(leading:true)), trailing: HeaderBar(leading: false))
 		}
 	}

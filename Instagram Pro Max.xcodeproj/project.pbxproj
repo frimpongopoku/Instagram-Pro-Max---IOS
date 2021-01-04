@@ -20,6 +20,7 @@
 		9E71611425A236E900221EA5 /* OneNewsCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E71611325A236E900221EA5 /* OneNewsCard.swift */; };
 		9E71611525A236E900221EA5 /* OneNewsCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E71611325A236E900221EA5 /* OneNewsCard.swift */; };
 		9E71612125A3256A00221EA5 /* insta.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9E71612025A3256A00221EA5 /* insta.ttf */; };
+		9E71613725A360BF00221EA5 /* SplashScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E71613625A360BF00221EA5 /* SplashScreen.swift */; };
 		9E9C44AC25A21D1B00514D46 /* StartingPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E9C44AB25A21D1B00514D46 /* StartingPage.swift */; };
 /* End PBXBuildFile section */
 
@@ -36,6 +37,7 @@
 		9E71610E25A226A500221EA5 /* StoryCircle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryCircle.swift; sourceTree = "<group>"; };
 		9E71611325A236E900221EA5 /* OneNewsCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OneNewsCard.swift; sourceTree = "<group>"; };
 		9E71612025A3256A00221EA5 /* insta.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = insta.ttf; sourceTree = "<group>"; };
+		9E71613625A360BF00221EA5 /* SplashScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashScreen.swift; sourceTree = "<group>"; };
 		9E9C44AB25A21D1B00514D46 /* StartingPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartingPage.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -82,6 +84,7 @@
 				9E282DB4259E4FD4008970A1 /* Fonts */,
 				9E2222D7259E338F006A7042 /* Instagram_Pro_MaxApp.swift */,
 				9E2222D8259E338F006A7042 /* InstagramProMaxIndex.swift */,
+				9E71613625A360BF00221EA5 /* SplashScreen.swift */,
 				9E71612025A3256A00221EA5 /* insta.ttf */,
 				9E2222D9259E338F006A7042 /* Assets.xcassets */,
 				9E71610925A2233800221EA5 /* CustomPlusRectange.swift */,
@@ -224,6 +227,7 @@
 			files = (
 				9E2222EC259E3390006A7042 /* InstagramProMaxIndex.swift in Sources */,
 				9E9C44AC25A21D1B00514D46 /* StartingPage.swift in Sources */,
+				9E71613725A360BF00221EA5 /* SplashScreen.swift in Sources */,
 				9E2222EA259E3390006A7042 /* Instagram_Pro_MaxApp.swift in Sources */,
 				9E71611425A236E900221EA5 /* OneNewsCard.swift in Sources */,
 				9E71610A25A2233800221EA5 /* CustomPlusRectange.swift in Sources */,
