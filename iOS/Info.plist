@@ -6,7 +6,7 @@
 	<string>$(DEVELOPMENT_LANGUAGE)</string>
 	<key>UIAppFonts</key>
 	<array>
-		<string>InstagramLogoFont.ttf</string>
+		<string>insta.ttf</string>
 	</array>
 	<key>CFBundleExecutable</key>
 	<string>$(EXECUTABLE_NAME)</string>

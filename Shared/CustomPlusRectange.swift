@@ -13,11 +13,11 @@ struct CustomPlusRectange: View {
 				.resizable()
 				.renderingMode(/*@START_MENU_TOKEN@*/.template/*@END_MENU_TOKEN@*/)
 				.foregroundColor(/*@START_MENU_TOKEN@*/.blue/*@END_MENU_TOKEN@*/)
-				.frame(width:20, height:20)
+				.frame(width:15, height:15)
 				.overlay(
 					RoundedRectangle(cornerRadius: 7)
 						.stroke(Color.blue)
-						.frame(width:30, height:30)
+						.frame(width:25, height:25)
 					
 				)
 			
